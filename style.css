@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  background-color: #C880B7; 
+  color: #000000;
+  font-family: "Dosis", cursive;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#moon {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 1;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #C880B7;
+    border-radius: 50%;
+    box-shadow: 30px 10px 0px 0px #FFFFFF;
+}
+
+#heading {
+  color: #050404;
+  text-align: center;
+  padding: 1.7em;
+}
+
+
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 0.5em;
+  position: relative;
+  z-index: 1;
+}
+
+#quote {
+  font-size: 0.9em;
+}
+#img-div {
+  background-color: #202026;
+  padding-bottom: 1%;
+  padding-left: 10%;
+  padding-right: 10%;                  
+}
+
+#image {
+  width: 80%;
+  height: auto;
+}
+
+#img-caption {
+  color: #F0F4EF;
+  font-size: 0.7em;
+  padding-top: 0.9%;
+}
+
+#tribute-info{
+  color: #050404;
+  text-align: center;
+  font-size: 0.9em;
+  padding-top: 2%;
+}
+
+.paragraph {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 2em;
+}
+
+#end-quote {
+  padding-top: 3%;
+}
+
+#footer {
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
